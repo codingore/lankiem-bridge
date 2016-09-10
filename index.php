@@ -1,3 +1,3 @@
 <?php
-header('Location: http://lankiem.sayobot.com');
+header('Location: http://lankiem.com');
 ?>
