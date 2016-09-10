@@ -1,6 +1,6 @@
 <?php
 $method = strtolower($_SERVER['REQUEST_METHOD']);
-$url = 'http://lankiem.sayobot.com/webhook.yo?';
+$url = 'http://lankiem.com/webhook.yo?';
 foreach($_GET as $k=>$v) {
     $url .= str_replace('hub_', 'hub.', $k) .'='.$v.'&';
 }
